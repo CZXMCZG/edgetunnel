@@ -13,9 +13,6 @@ let proxyIP = '';
 // Example:  user:pass@host:port  or  host:port
 let socks5Address = '';
 
-if (!isValidUUID(userID)) {
-	throw new Error('uuid is not valid');
-}
 
 let parsedSocks5Address = {}; 
 let enableSocks = false;

@@ -9,9 +9,6 @@ let userID = 'cbc26982-6746-4e55-9346-7b0c5eba7cbe';
 let proxyIP = '';
 
 
-if (!isValidUUID(userID)) {
-	throw new Error('uuid is not valid');
-}
 
 export default {
 	/**
